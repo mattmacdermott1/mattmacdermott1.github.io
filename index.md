@@ -1,4 +1,6 @@
-
+---
+title: Matt MacDermott
+---
 
 # Publications
 
