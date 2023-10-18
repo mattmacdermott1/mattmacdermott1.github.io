@@ -1,4 +1,4 @@
-#Publications
+# Publications
 
 * Zachary Kenton, Ramana Kumar, Sebastian Farquhar, Jonathan Richens, **Matt MacDermott**, Tom Everitt (2023). [Discovering Agents](https://arxiv.org/abs/2208.08345). _Artificial Intelligence_.
 * James Fox, **Matt MacDermott**, Lewis Hammond, Paul Harrenstein, Alessandro Abate, Michael Wooldridge (2023). [On Imperfect Recall in Multi-Agent Influence Diagrams](https://arxiv.org/abs/2307.05059). _Theoretical Aspects of Rationality and Knowledge_.
