@@ -1,4 +1,3 @@
-PhD Student at Imperial College London, [Centre for Doctoral Training in Safe and Trusted AI](https://safeandtrustedai.org/). Member of the [Causal Incentives Working Group](https://causalincentives.com/).
 
 
 # Publications
