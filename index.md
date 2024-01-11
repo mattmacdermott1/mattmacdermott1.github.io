@@ -2,6 +2,7 @@
 title: Matt MacDermott
 ---
 # News
+* **January 2024:** I'm taking part in the [Alignment Research Engineer Accelerator](https://www.arena.education/) Programme.
 
 * **October 2023:** I helped organised the [Agent Foundations for AI Alignment Workshop](agentfoundations.net).
 
