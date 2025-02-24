@@ -2,11 +2,12 @@
 title: Matt MacDermott
 ---
 # News
-* **May 2024:** Started an internship working with Yoshua Bengio on Safe AI for Humanity ([SAIFH](https://yoshuabengio.org/2023/05/07/ai-scientists-safe-and-useful-ai/)).
+* **May 2024:** Started an internship working with Yoshua Bengio on Safe AI for Humanity ([SAIFH](https://arxiv.org/pdf/2502.15657)).
 * **January 2024:** I took part in the [Alignment Research Engineer Accelerator Programme](https://www.arena.education/).
 * **October 2023:** I helped organised the [Agent Foundations for AI Alignment Workshop](agentfoundations.net).
 
 # Publications and Preprints
+* Yoshua Bengio, Michael Cohen, Damiano Fornasiere, Joumana Ghosn, Pietro Greiner, **Matt MacDermott**, Sören Mindermann, Adam Oberman, Jesse Richardson, Oliver Richardson, Marc-Antoine Rondeau, Pierre-Luc St-Charles, David Williams-King (2025). [Superintelligent Agents Pose Catastrophic Risks: Can Scientist AI Offer a Safer Path?](https://arxiv.org/abs/2502.15657). *arXiv preprint*.
 * Yoshua Bengio, Michael K. Cohen, Nikolay Malkin, **Matt MacDermott**, Damiano Fornasiere, Pietro Greiner, Younesse Kaddar (2024). [Can a Bayesian Oracle Prevent Harm from an Agent?](https://arxiv.org/abs/2408.05284). *arXiv preprint*.
 * **Matt MacDermott**, James Fox, Francesco Belardinelli, Tom Everitt (2024). [Measuring Goal-Directedness](https://arxiv.org/abs/2412.04758). *Neural Information Processing Systems (Spotlight)*.
 * Francis Rhys Ward, **Matt MacDermott**, Francesco Belardinelli, Francesca Toni, Tom Everitt (2024). [The Reasons that Agents Act: Intention and Instrumental Goals](https://arxiv.org/abs/2402.07221). *International Conference on Autonomous Agents and Multiagent Systems*.
