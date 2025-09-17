@@ -2,7 +2,7 @@
 title: Matt MacDermott
 ---
 # News
-* **2025:** Started working at [LawZero](lawzero.org).
+* **2025:** Started working at [LawZero](https://lawzero.org).
 * **May 2024:** Started an internship working with Yoshua Bengio on Safe AI for Humanity ([SAIFH](https://arxiv.org/pdf/2502.15657)).
 * **January 2024:** I took part in the [Alignment Research Engineer Accelerator Programme](https://www.arena.education/).
 * **October 2023:** I helped organised the [Agent Foundations for AI Alignment Workshop](agentfoundations.net).
