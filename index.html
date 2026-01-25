@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt MacDermott</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+            background-color: #f8f6f1;
+            color: #2d2d2d;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        /* Header with stonechat accent */
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid #6b7c5e;
+        }
+
+        .profile-photo {
+            width: 160px;
+            height: 160px;
+            border-radius: 8px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .header-text h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #1a1a1a;
+        }
+
+        .tagline {
+            color: #5a5a5a;
+            font-size: 1.05rem;
+            margin-bottom: 1rem;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .links a {
+            color: #b5623a;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .links a:hover {
+            color: #8b4a2b;
+            text-decoration: underline;
+        }
+
+        .links span {
+            color: #888;
+        }
+
+        /* Bio section */
+        .bio {
+            margin-bottom: 2.5rem;
+        }
+
+        .bio p {
+            margin-bottom: 1rem;
+        }
+
+        .bio a {
+            color: #b5623a;
+            text-decoration: none;
+        }
+
+        .bio a:hover {
+            text-decoration: underline;
+        }
+
+        /* Stonechat decoration */
+        .stonechat-container {
+            float: right;
+            margin: 0 0 1rem 1.5rem;
+            text-align: right;
+        }
+
+        .stonechat {
+            width: 180px;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .stonechat-caption {
+            font-size: 0.75rem;
+            color: #888;
+            margin-top: 0.3rem;
+            font-style: italic;
+        }
+
+        /* Section styling */
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #1a1a1a;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #6b7c5e;
+            display: inline-block;
+        }
+
+        /* Publications */
+        .publications {
+            list-style: none;
+        }
+
+        .publications li {
+            margin-bottom: 1.25rem;
+            padding-left: 0;
+        }
+
+        .publications a {
+            color: #b5623a;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .publications a:hover {
+            text-decoration: underline;
+        }
+
+        .publications .authors {
+            font-size: 0.9rem;
+            color: #555;
+            margin-top: 0.2rem;
+        }
+
+        .publications .venue {
+            font-size: 0.85rem;
+            color: #777;
+            font-style: italic;
+        }
+
+        .publications .award {
+            font-size: 0.85rem;
+            color: #6b7c5e;
+            font-weight: 500;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e8e4db;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        footer p {
+            font-style: italic;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .links {
+                justify-content: center;
+            }
+
+            .stonechat-container {
+                float: none;
+                margin: 0 auto 1.5rem auto;
+                text-align: center;
+            }
+
+            .stonechat {
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="profile.png" alt="Matt MacDermott" class="profile-photo">
+            <div class="header-text">
+                <h1>Matt MacDermott</h1>
+                <div class="links">
+                    <a href="mailto:matthew.macdermott@coefficientgiving.org">Email</a>
+                    <span>·</span>
+                    <a href="https://scholar.google.com/citations?user=UHqQCmsAAAAJ">Google Scholar</a>
+                    <span>·</span>
+                    <a href="https://github.com/mattmacdermott1">GitHub</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="bio">
+            <div class="stonechat-container">
+                <img src="stonechat.jpg" alt="A stonechat perched on a branch." class="stonechat">
+            </div>
+            <p>
+                I'm currently an <a href="https://www.constellation.org/programs/astra-fellowship">Astra Fellow</a> on the technical AI safety team at <a href="https://www.coefficientgiving.org/">Coefficient Giving</a>.
+            </p>
+            <p>
+                Before that, I was a research scientist at <a href="https://lawzero.org">LawZero</a> and a PhD candidate at <a href="https://www.imperial.ac.uk/">Imperial College London</a> (I'm currently awaiting my viva). During my PhD I worked with the <a href="https://causalincentives.com/">Causal Incentives Working Group</a>.
+            </p>
+        </section>
+
+        <section>
+            <h2>Papers</h2>
+            <ul class="publications">
+                <li>
+                    <a href="https://arxiv.org/abs/2512.00218">Reasoning Under Pressure: How do Training Incentives Influence Chain-of-Thought Monitorability?</a>
+                    <div class="authors"><strong>Matt MacDermott</strong>*, Qiyao Wei*, Rada Djoneva*, Francis Rhys Ward*</div>
+                    <div class="venue">arXiv preprint, 2025</div>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/abs/2502.15657">Superintelligent Agents Pose Catastrophic Risks: Can Scientist AI Offer a Safer Path?</a>
+                    <div class="authors">Yoshua Bengio, Michael Cohen, ... <strong>Matt MacDermott</strong>, ... et al.</div>
+                    <div class="venue">arXiv preprint, 2025</div>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/abs/2408.05284">Can a Bayesian Oracle Prevent Harm from an Agent?</a>
+                    <div class="authors">Yoshua Bengio, Michael K. Cohen, Nikolay Malkin, <strong>Matt MacDermott</strong>, Damiano Fornasiere, Pietro Greiner, Younesse Kaddar</div>
+                    <div class="venue">UAI 2025</div>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/abs/2412.04758">Measuring Goal-Directedness</a>
+                    <div class="authors"><strong>Matt MacDermott</strong>, James Fox, Francesco Belardinelli, Tom Everitt (2024)</div>
+                    <div class="venue">NeurIPS 2024 </div>
+                    <div class="award">Spotlight Paper</div>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/abs/2402.07221">The Reasons that Agents Act: Intention and Instrumental Goals</a>
+                    <div class="authors">Francis Rhys Ward, <strong>Matt MacDermott</strong>, Francesco Belardinelli, Francesca Toni, Tom Everitt</div>
+                    <div class="venue">AAMAS 2024</div>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/abs/2208.08345">Discovering Agents</a>
+                    <div class="authors">Zachary Kenton, Ramana Kumar, Sebastian Farquhar, Jonathan Richens, <strong>Matt MacDermott</strong>, Tom Everitt</div>
+                    <div class="venue">Artificial Intelligence, 2023</div>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/abs/2307.05059">On Imperfect Recall in Multi-Agent Influence Diagrams</a>
+                    <div class="authors">James Fox, <strong>Matt MacDermott</strong>, Lewis Hammond, Paul Harrenstein, Alessandro Abate, Michael Wooldridge</div>
+                    <div class="venue">TARK 2023</div>
+                    <div class="award">Best Paper Award</div>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/abs/2307.10987">Characterising Decision Theories with Mechanised Causal Graphs</a>
+                    <div class="authors"><strong>Matt MacDermott</strong>, Tom Everitt, Francesco Belardinelli </div>
+                    <div class="venue">Games, Agents and Incentives Workshop; AAMAS 2023</div>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+</html>
